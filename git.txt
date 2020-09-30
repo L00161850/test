@@ -1,0 +1,12 @@
+echo "# DCM2020" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin github.com/L00161850/test.git
+git push -u origin master
+
+8:47 PM
+git remote add origin github.com/L00161850/test.git
+git branch -M master
+git push -u origin master
