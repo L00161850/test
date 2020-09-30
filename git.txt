@@ -13,3 +13,4 @@ git log --oneline (see logs in short line of information)
 
 git remote add ruth https://github.com/rlennon/DCM2020
 git push -u ruth master
+:wq (save exit from vi)
