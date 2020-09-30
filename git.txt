@@ -9,3 +9,5 @@ git push -u origin master
 blah blah blah
 test
 test2
+
+git log -n 2 (last two entries in log)
