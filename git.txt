@@ -2,10 +2,14 @@ echo "# DCM2020" >> README.md
 git init 			(start git from current folder)
 git add README.md 		(add file)
 git commit -m "first commit"  	(commit file)
-git branch -M master 		(create branch called master)
+git branch -M master 		(rename current branch to master)
 git remote add origin https://github.com/L00161850/test.git  (add remote repo named origin)
 git push -u origin master	(push from master to origin)
 
 git log -n 2 (last two entries in log)
 git log --committer="L00161850" (show who commited commits)
 q (to quit)
+git log --oneline (see logs in short line of information)
+
+git remote add ruth https://github.com/rlennon/DCM2020
+git push -u ruth master
